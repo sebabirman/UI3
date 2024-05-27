@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 378217703}
   - component: {fileID: 378217702}
   m_Layer: 5
-  m_Name: Aceptar
+  m_Name: BtnAceptar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,7 +509,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 378217703}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1452681392}
+        m_MethodName: "chequearcontrase\xF1a"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &378217703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,8 +795,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1200926368}
   m_TextComponent: {fileID: 1000384529}
   m_Placeholder: {fileID: 164268136}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -962,6 +973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e16459ee05060f4097107f3ebbae900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Inputpassword: {fileID: 1200926367}
+  password: 9090
 --- !u!1 &1523215896
 GameObject:
   m_ObjectHideFlags: 0
